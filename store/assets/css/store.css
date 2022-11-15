@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(../../../home/assets/css/image/bg.jpg);
+    background-attachment: fixed;
+}
+.head{
+    margin-top: 8%;
+}
+
+
+.font-family{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.head > h3{
+
+    color: #E6A24F;
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 800;
+    
+
+}
+
+.head h1{
+    color: #DBC4AB;
+    text-align: center;
+    font-size: 15vh;
+    font-weight: 100;
+    
+}
+
+.nav-bar{
+    width: 100%;
+    height: 15vh;
+    margin-top: 10vh;
+    background-color: #2F170F;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar ul{
+    text-align: center;
+
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    color: white;
+    margin-top: 2vh;
+    padding: 5vh;
+}
+.nav-bar ul li:hover{
+    color: rgb(116, 111, 111);
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 130vh;
+    background-color: #D69A50;
+    margin-top: 10vh;
+}
+
+.main-box{
+    width: 60%;
+    height: 100vh;
+    background-color:#F6E1C5;
+    border: 1px solid white;
+    outline: 1vh solid #E5AD63;
+    border-radius: 1vh;
+    margin-left: 45vh;
+    position: relative;
+    top: 15vh;
+
+}
+
+.main-box h4{
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.main-box h1{
+    text-align: center;
+    font-size: 10vh;
+    font-weight: 100;
+ 
+}
+.contents{
+    text-align: center;
+    margin: 5vh;
+}
+
+
+.contents p{
+    display: inline-block;
+   
+    
+    
+}
+
+.about-img img{
+width: 80%;
+margin-left: 20vh;
+margin-top: 15vh;
+}
+
+
+.container{
+    width: 130vh;
+    height: 50vh;
+    background-color: #F6E1C5;
+    border-radius: 1vh;
+    position: relative;
+    bottom: 15vh;
+    left: 45vh; 
+}
+
+.container h4{
+padding-left: 6vh;
+padding-top: 6vh;
+}
+
+.container h1{
+    margin-top: 0vh;
+    margin-left: 7vh;
+    font-weight: 100;
+    
+}
+
+.container p{
+    width: 70%;
+    text-align: justify;
+    margin-left: 7vh;
+    margin-top: 4vh;
+}
+
+.end{
+    width: 100%;
+    height: 20vh;
+    background-color:#311810 ;
+    margin-top: 20vh;
+}
+
+.end h1{
+    font-size: 3vh;
+    color:#F6E1C5;
+    text-align: center;
+    padding-top: 10vh;
+}
